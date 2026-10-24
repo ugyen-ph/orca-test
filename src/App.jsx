@@ -1,12 +1,6 @@
+import Dashboard from './pages/Dashboard.jsx'
 import './styles/app.css'
 
-function App() {
-  return (
-    <main className="app">
-      <h1>Task Manager</h1>
-      <p>Frontend workspace ready.</p>
-    </main>
-  )
+export default function App() {
+  return <Dashboard />
 }
-
-export default App
